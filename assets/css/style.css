@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ .inter{
+    font-family: "Inter", sans-serif;
+ }
+.open-sans{
+    font-family: "Open Sans", sans-serif;
+}
+
+.crd-shadow{
+    box-shadow: 2px 4px 23px 0px #078DFC40;
+}
+.font-free{
+    background: -webkit-linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);
+ background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cardhover:hover .freetext{
+    background: -webkit-linear-gradient(90.79deg, #fff 0.27%, #fff 98.57%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.footer-gradient{
+    background: linear-gradient(223.31deg, #FBC524 -34.99%, #E939D9 21.89%, #2ABAE9 74.4%);
+}
+.blue-bg-img{
+    background-image: url(/assets/images/png/lst-blue-img.png);
+    background-repeat: no-repeat;
+}
+.hover:font-free{
+    color: white;
+}
+
+.outfit{
+    font-family: "Outfit", sans-serif;
+}
+.bg-blue-img{
+    background-image: url(/assets/images/png/grediant-img-bg.png);
+    background-repeat: no-repeat;
+    max-width: 1139px;
+}
+.linear-blue {
+    background: linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gradiant-2{
+    background: linear-gradient(104.91deg, #2ABAE9 0%, #1B77CC 100%);
+}
+.imp-gradiant{
+    background: linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);
+}
+
+.mix-purple{
+    background: linear-gradient(226.79deg, #E939D9 -11.53%, #2ABAE9 92.1%)
+}
+
+.btn-clr{
+    background: linear-gradient(104.91deg, #2ABAE9 0%, #1B77CC 100%);
+}
+.sec-bg{
+background-image: url(/assets/images/png/bg-clr-greadent.png);
+}
+.border-clr
+{
+    border: 1px solid;
+    
+        border-image-source: linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);
+}
+.slick-track {
+    display: flex !important;
+    gap: 24px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
