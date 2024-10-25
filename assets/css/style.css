@@ -63,6 +63,7 @@
 }
 .sec-bg{
 background-image: url(/assets/images/png/bg-clr-greadent.png);
+max-width: 1440px;
 }
 .border-clr
 {
