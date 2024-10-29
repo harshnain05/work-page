@@ -12,6 +12,10 @@
 .crd-shadow{
     box-shadow: 2px 4px 23px 0px #078DFC40;
 }
+.linear-1{
+    background: linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%),
+            linear-gradient(224.77deg, #E939D9 2.18%, #2ABAE9 111.89%);
+}
 .font-free{
     background: -webkit-linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%);
  background-clip: text;
@@ -63,7 +67,8 @@
 }
 .sec-bg{
 background-image: url(/assets/images/png/bg-clr-greadent.png);
-max-width: 1440px;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .border-clr
 {

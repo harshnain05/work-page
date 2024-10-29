@@ -51,7 +51,7 @@
                             "light-7": "0px 10px 22px 0px #0000000D",
                         },
                         backgroundImage: {
-                            "linear-1": "linear-gradient(90.79deg, #994FFF 0.27%, #4AB6FE 98.57%)",
+                            "linear-1": "linear-gradient(90.79deg, #994FFF 2.27%, #4AB6FE 98.57%)",
                         },
                         background: {
 
@@ -62,9 +62,9 @@
         </script>
     </head>
 
-    <body>
+    <body class="w-full">
         <!-- ==================================================================== -->
-        <section class=" sec-bg mx-auto w-full max-w-[1440px] max-h-[800px]">
+        <section class=" sec-bg mx-auto max-h-[800px]">
             <div class="container px-3 max-lg:px-0 ">
                 <nav class="flex justify-between items-center lg:py-[23px] py-4">
                     <a href="/"><img class="lg:max-w-[160px] max-w-[120px]"
@@ -109,7 +109,7 @@
                         Be empowered to completely run your finances
                         on autopilot</p>
                     <div
-                        class="relative lg:py-2 py-1 lg:px-2 px-1 border-[#8F5CFF] border-2 bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 max-w-64 justify-between w-full ">
+                        class="relative lg:py-2 max-w-[464px] py-1 lg:px-2 px-1 border-[#8F5CFF] border-2 bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 justify-between w-full ">
                         <input type="email" required
                             class="font-normal ps-[14px] outline-none inter max-w-[350px] w-full lg:text-base text-sm leading-[118%] bg-transparent"
                             placeholder="Enter email to join waitlist">
@@ -117,15 +117,18 @@
                                 src="/assets/images/svg/Arrow.svg" alt="">
                         </button>
                     </div>
-                    <div>
-                        <img class="max-w-[1138px] w-full" src="/assets/images/png/chart-img.png" alt="chart-img">
+
+                    <div class="relative">
+                        <img class="absolute -left-52 -top-20" src="/assets/images/svg/top-snake.svg" alt="">
+                        <img class="max-w-[1138px] mb-[73px] w-full" src="/assets/images/png/chart-img.png"
+                            alt="chart-img">
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- ==================================================================== -->
-        <section class="  max-[1024px]:mx-10 pb-40">
+        <section class="  max-[1024px]:mx-10 pb-[137px]">
             <div class="container mx-auto px-3 relative">
                 <div class="absolute  mt-[50px] max-[1024px]:hidden lg:-left-16 left-4 top-[54%] group ">
                     <button
@@ -276,7 +279,6 @@
                 </div>
             </div>
         </section>
-
         <!-- ==================================================================== -->
         <section class="mb-20 max-[1024px]:mx-10">
             <div class="container mx-auto px-3 w-full">
@@ -285,11 +287,12 @@
                     <div>
                         <div class="flex flex-wrap w-full justify-center">
                             <div class="lg:w-6/12 lg:pt-10 md:pt-6 pt-3 md:pl-10 px-3">
+                                <img class=" max-lg:hidden" src="/assets/images/svg/our-line.svg" alt="">
                                 <h3
                                     class="lg:mb-6 md:mb-4 outfit mb-2 xl:text-[40px] lg:text-4xl md:text-3xl text-2xl font-medium text-white text-center lg:text-start">
                                     Our Mission</h3>
                                 <p
-                                    class="lg:text-base inter text-sm max-w-[420px] text-white text-center lg:text-start">
+                                    class="lg:text-base inter text-sm max-w-[417px] text-[#D9D8F6] text-center lg:text-start">
                                     Our mission is to harness
                                     the power of AI-driven automation to empower Australian businesses. We
                                     propel all sized businesses towards success by automating financial tasks, from tax
@@ -307,17 +310,18 @@
                                     src="./assets/images/png/phon-PC.png" alt="phone-pc">
                             </div>
                         </div>
-                        <div class="flex flex-wrap w-full pt-5 justify-center">
+                        <div class="flex  flex-wrap w-full pt-5 max-lg:pt-0 justify-center">
                             <div class="lg:w-6/12">
                                 <img class="xl:max-w-[550px] lg:max-w-[500px] max-w-[307px] lg:pt-0 pt-0 lg:px-0 px-3"
                                     src="./assets/images/png/PC_BANK.png" alt="bank-data">
                             </div>
-                            <div class="lg:w-6/12 lg:pt-10 md:pt-6 pt-3 md:pl-10 px-3">
+                            <div class="lg:w-6/12 mt-4 lg:pt-10 md:pt-6 pt-3 md:pl-10 px-3">
+                                <img class=" mb-1 max-lg:hidden" src="/assets/images/svg/solution-line.svg" alt="">
                                 <h3
-                                    class="lg:mb-6 md:mb-4 mb-2 xl:text-[40px] outfit lg:text-4xl md:text-3xl text-2xl font-medium text-white text-center lg:text-start">
+                                    class="lg:mb-6 md:mb-4 xl:max-w-[144px] mb-2 xl:text-[40px] outfit lg:text-4xl md:text-3xl text-2xl font-medium text-white text-center lg:text-start">
                                     Solution</h3>
                                 <p
-                                    class="lg:text-base text-sm max-w-[420px] inter text-white inter text-center lg:text-start pb-3">
+                                    class="lg:text-base text-sm max-w-[405px] leading-[25.6px] inter text-[#D9D8F6] inter text-center lg:text-start pb-3">
                                     We grasp the struggles of
                                     business finance management and the risks of losing control. WorkUp's AI automation
                                     solution
@@ -341,7 +345,7 @@
                         class=" lg:mb-[19px] md:mb-4 mb-3 outfit font-medium xl:text-[40px] lg:text-4xl md:text-3xl text-2xl text-white text-center">
                         Join our waitlist</h2>
                     <div
-                        class="relative lg:py-2 py-1 lg:px-2 px-1 inter bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 max-w-64 justify-between w-full border-[#2ABAE9] border-[1px]">
+                        class="relative max-w-[464px] lg:py-2 py-1 lg:px-2 px-1 inter bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 max-h-[52px] justify-between w-full border-[#2ABAE9] border-[1px]">
                         <input type="email" required
                             class="font-normal ps-[14px] outline-none max-w-[350px] w-full lg:text-base text-sm leading-[118%] bg-transparent"
                             placeholder="Enter email to join waitlist">
@@ -354,7 +358,7 @@
         </section>
 
         <!-- ==================================================================== -->
-        <section class=" relative mb-20 max-[1024px]:mx-10 max-[1024px]:mb-10">
+        <section class=" relative mb-[108px] max-[1024px]:mx-10 max-[1024px]:mb-10">
             <img class="absolute -bottom-52 lg:hidden xl:block -left-24" src="/assets/images/svg/pro-top-with-dot.svg"
                 alt="">
             <div class="container px-3 lg:max-w-[800px] xl:max-w-[1170px]">
@@ -373,7 +377,7 @@
                                 class="font-medium outfit lg:text-xl text-lg outfit leading-[118%] lg:mb-[13px] mb-[13px]">
                                 Spend Control
                             </h4>
-                            <p class="max-w-[280px] inter lg:text-base text-sm text-[#3B444B] inter">Smart card issuing
+                            <p class="max-w-[291px] inter lg:text-base text-sm text-[#3B444B] inter">Smart card issuing
                                 and
                                 budget control, so its easy to
                                 do the right
@@ -414,7 +418,7 @@
         </section>
 
         <!-- ==================================================================== -->
-        <section class="pb-40">
+        <section class="pb-[129px]">
             <div class="container mx-auto px-3">
                 <div
                     class="flex justify-center flex-col shadow-light-5 rounded-xl mix-purple w-full lg:min-h-[233px] xl:px-[119px] lg:px-20 md:px-16 sm:px-12 px-7 xl:py-[52px] lg:py-10 md:py-7 py-5">
@@ -471,7 +475,8 @@
         </section>
 
         <!-- ==================================================================== -->
-        <section class="py-10">
+        <section class="py-10 relative">
+            <img class="absolute right-0 bottom-72 " src="/assets/images/svg/update-side-img.svg" alt="">
             <div class="container px-3">
                 <div
                     class="box max-w-[1060px] hover:shadow-[#2ABAE9] border-[#ECECEC] border-[1px] hover:shadow-lg duration-300 ease-linear pe-7 rounded-xl relative mb-[49px]">
@@ -520,7 +525,7 @@
                     </div>
                 </div>
                 <div
-                    class="box max-w-[1060px]  hover:shadow-[#2ABAE9]  border-[#ECECEC] border-[1px] hover:shadow-lg duration-300 ease-linear pe-7 rounded-xl relative mb-[49px]">
+                    class="box max-w-[1060px] hover:shadow-[#2ABAE9]  border-[#ECECEC] border-[1px] hover:shadow-lg duration-300 ease-linear pe-7 rounded-xl relative mb-[49px]">
                     <div class=" border-l-[19px]  rounded-xl ps-7 border-[#86AFF0]">
                         <img class="absolute -right-1 -bottom-[57.5px] max-w-[50px]"
                             src="./assets/images/svg/dotssss.svg" alt="dot-img">
@@ -554,7 +559,7 @@
                         class=" lg:mb-[19px] md:mb-4 mb-3 outfit font-medium xl:text-[40px] lg:text-4xl md:text-3xl text-2xl text-white text-center">
                         Join our waitlist</h2>
                     <div
-                        class="relative lg:py-2 py-1 lg:px-2 px-1 bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 max-w-64 justify-between w-full border-[#2ABAE9] border-[1px]">
+                        class="relative lg:py-2 py-1 lg:px-2 px-1 bg-white rounded-[35px] mb-[22px] flex lg:max-w-[464px] md:max-w-96 sm:max-w-72 max-w-[464px] h-[52px] justify-between w-full border-[#2ABAE9] border-[1px]">
                         <input type="email" required
                             class="font-normal ps-[14px] outline-none max-w-[350px] w-full lg:text-base text-sm leading-[118%] bg-transparent"
                             placeholder="Enter email to join waitlist">
@@ -571,7 +576,7 @@
             <img class="absolute top-0 -left-2" src="/assets/images/svg/work-side-img.svg" alt="">
             <div class="container mx-auto px-3">
                 <img class="mx-auto mb-[10px]" src="/assets/images/svg/2nd-sec-blue-line.svg" alt="">
-                <h2 class="xl:text-[40px] g:text-4xl md:text-3xl text-2xl font-medium text-center">How it’s working</h2>
+                <h2 class="xl:text-[40px] g:text-4xl max-[768px]:-mb-20 md:text-3xl text-2xl font-medium text-center">How it’s working</h2>
                 <div class="flex flex-wrap justify-center">
                     <div class="lg:w-6/12 px-3 lg:mt-0 mt-10">
                         <img src="./assets/images/png/3d-img.png" alt="3d-img">
@@ -733,8 +738,8 @@
                                     class="text-[#4D4D4D] lg:text-base text-sm inter group-hover:text-white text-center xl:mb-[27px] lg:mb-6 mb-5">
                                     Best for small business</p>
                                 <p
-                                    class="text-[40px] font-semibold font-free freetext open-sans lg:mb-3 mb-2 group-hover:text-white">
-                                    $25
+                                    class="text-[40px] flex font-semibold font-free freetext open-sans lg:mb-3 mb-2 group-hover:text-white">
+                                    <span class="text-[21.7px] font-semibold leading-8">$</span>25
                                 </p>
                                 <p
                                     class="text-[#808080] lg:text-base text-sm inter lg:mb-[17px] group-hover:text-white md:mb-4 mb-3">
@@ -826,8 +831,8 @@
                                     class="text-[#4D4D4D] lg:text-base text-sm inter group-hover:text-white text-center xl:mb-[27px] lg:mb-6 mb-5">
                                     Best for growth businesses</p>
                                 <p
-                                    class="text-[40px] font-free freetext font-semibold open-sans lg:mb-3 mb-2 group-hover:text-white">
-                                    $35
+                                    class="text-[40px] flex font-free freetext font-semibold open-sans lg:mb-3 mb-2 group-hover:text-white">
+                                    <span class="text-[21.7px] font-semibold leading-8">$</span>35
                                 </p>
 
                                 <p
@@ -959,7 +964,7 @@
         </section>
 
         <!-- ==================================================================== -->
-        <section class="xl:pb-[75px] xl:pt-[87px] lg:pt-16 md:pt-12 sm:pt-10 pt-7 lg:pb-16 md:pb-14 pb-12 relative">
+        <section class="xl:pb-[96px] xl:pt-[107px] lg:pt-16 md:pt-12 sm:pt-10 pt-7 lg:pb-16 md:pb-14 pb-12 relative">
             <img class="absolute pointer-events-none lg:hidden xl:block  right-0 xl:top-4 max-xl:top-10"
                 src="./assets/images/svg/circle-gradiant.svg" alt="gradient-line-img">
             <div class="container mx-auto px-3">
@@ -968,7 +973,7 @@
                     class="xl:text-4xl-2 lg:text-4xl md:text-3xl text-2xl font-medium text-center xl:mb-[50px] lg:mb-9 md:mb-8 mb-0">
                     Frequently Awesome Questions</h2>
                 <div class="flex flex-wrap">
-                    <div class="lg:w-6/12 w-full px-3 flex lg:justify-start justify-center">
+                    <div class="lg:w-6/12 w-full px-3 flex justify-center">
                         <img class="max-w-[505px] max-h-[519px] lg:pb-2 w-full"
                             src="./assets/images/png/acc-computer.png" alt="">
                     </div>
@@ -1012,7 +1017,7 @@
                                     <div class="cursor-pointer py-[18px] flex justify-between items-center"
                                         onclick="toggleAccordion(2)">
                                         <h2 id="header-2"
-                                            class="lg:text-base text-sm font-medium lg:max-w-[522px] max-sm:pr-7">
+                                            class="lg:text-base text-sm font-medium lg:max-w-[525px] max-sm:pr-7">
                                             Q2 How
                                             does
                                             WorkUp tackle
@@ -1073,7 +1078,7 @@
                                     <div class="cursor-pointer py-[18px] flex justify-between items-center"
                                         onclick="toggleAccordion(4)">
                                         <h2 id="header-4"
-                                            class="lg:text-base text-sm font-medium lg:max-w-[522px] max-sm:pr-7">
+                                            class="lg:text-base text-sm font-medium lg:max-w-[527px] max-sm:pr-7">
                                             Q4 How
                                             does
                                             WorkUp
@@ -1134,7 +1139,7 @@
                                     <div class="cursor-pointer py-[18px] flex justify-between items-center"
                                         onclick="toggleAccordion(6)">
                                         <h2 id="header-6"
-                                            class="lg:text-base text-sm font-medium lg:max-w-[522px] max-sm:pr-7">
+                                            class="lg:text-base text-sm font-medium lg:max-w-[523px] max-sm:pr-7">
                                             Q6 How
                                             does
                                             WorkUp
@@ -1170,8 +1175,7 @@
         <section class="-mb-[58px] relative z-50">
             <div class="container mx-auto px-3">
                 <div
-                    class=" blue-bg-img max-w-[973px] pt-[42px] pb-[49px] max-h-[225px] xl:pt-[29px] lg:pt-6 md:pt-5  flex flex-col justify-center items-center rounded-2xl lg:min-h-[198px] md:min-h-[170px] min-h-[150px] mx-auto">
-
+                    class=" blue-bg-img max-w-[973px] pt-[42px] pb-[49px] max-h-[225px] xl:pt-[20px] lg:pt-6 md:pt-5  flex flex-col justify-center items-center rounded-2xl lg:min-h-[198px] md:min-h-[170px] min-h-[150px] mx-auto">
                     <h2
                         class=" outfit  pt-[42px]  outfit font-medium xl:text-[40px] lg:text-4xl md:text-3xl text-2xl text-white text-center">
                         Join Free Demo</h2>
@@ -1223,27 +1227,27 @@
                                         Home
                                     </h4>
                                     <div class="inter font-medium lg:text-sm text-xs flex flex-col gap-[14px]">
-                                        <a class="inter hover:text-blue duration-300 ease-linear" href="#thoughts">What
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear" href="#thoughts">What
                                             are Your Thoughts?</a>
-                                        <a class="inter hover:text-blue duration-300 ease-linear"
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear"
                                             href="#invest">Invest</a>
-                                        <a class="inter hover:text-blue duration-300 ease-linear"
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear"
                                             href="#cofounder">Become
                                             A Cofounder</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="lg:w-4/12 w-6/12 flex lg:justify-end justify-center">
+                            <div class="lg:w-4/12 w-6/12 lg:ms-16 flex lg:justify-end justify-center">
                                 <div class="text-white ">
                                     <h4 class="mb-[10px] open-sans font-semibold xl:text-xl lg:text-lg text-base">
                                         Links
                                     </h4>
                                     <div class="inter font-medium lg:text-sm text-xs flex flex-col gap-[13px]">
-                                        <a class="inter hover:text-blue duration-300 ease-linear" href="#">Contact
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear" href="#">Contact
                                             us</a>
-                                        <a class="inter hover:text-blue duration-300 ease-linear" href="#">FAQ</a>
-                                        <a class="inter hover:text-blue duration-300 ease-linear" href="#">Privacy</a>
-                                        <a class="inter hover:text-blue duration-300 ease-linear"
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear" href="#">FAQ</a>
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear" href="#">Privacy</a>
+                                        <a class="inter hover:text-[#208BD5] duration-300 ease-linear"
                                             href="#cofounder">Terms &
                                             conditions</a>
                                     </div>
